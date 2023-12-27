@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.container {
+
+    background-color: darksalmon;
+    border: none;
+    overflow: scroll;
+    width: 500px;
+    height: 300px;
+    box-shadow: 2px 2px 2px rgb(98, 92, 92);
+    overflow: auto;
+
+}
+
+
+
+.form-input-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+
+
+}
+
+.form-btn {
+    padding: 6px 12px;
+    font-size: 18px;
+    margin-top: 40px;
+    background-color: rgb(72, 188, 14);
+    border: none;
+    color: white;
+}
+
+.form-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 34px;
+    font-size: large;
+    margin-top: 40px;
+    
+}
+
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darksalmon;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+}
+
+h4 {
+    text-align: center;
+    padding-right:121px;
+
+}
+
+.todo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.to-do {
+    border: 2px solid;
+    width: 350px;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.app-title {
+    padding: 20px;
+}
+
+.btn-delete {
+    display: flex;
+    justify-content:space-between;
+    cursor: pointer;
+    background-color: rgb(188, 14, 14);
+    color: antiquewhite;
+    padding: 8px 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+
+}
